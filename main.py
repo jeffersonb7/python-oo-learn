@@ -11,7 +11,6 @@ class Teste:
     def i(self, v):
         self.__i = v
  
-    # Can be use for modify operator = left hand
     @property
     def i_only(self):
         return str(self.i) + 'test'
